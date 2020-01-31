@@ -1,6 +1,8 @@
 body{
   width:100vw;
   padding: 5vh 10vw;
+  background-color: black;
+  color: #FFBA08;
 }
 #order{
   width: 100%;
@@ -26,4 +28,10 @@ body{
 .order-item{
   width: 33%;
   margin: 2vh 0;
+}
+.jumbotron{
+  background-color: #565554;
+}
+strong{
+  color: #345995;
 }
