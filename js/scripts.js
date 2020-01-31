@@ -3,6 +3,7 @@ function Order() {
   this.orderTotal = 0;
 }
 Order.prototype.getTotal = function () {
+  this.orderTotal = 0;
   this.pizzas.forEach(pizza => {
     this.orderTotal += pizza.price
   })
@@ -51,5 +52,11 @@ $(document).ready(function () {
     myOrder.addPizza(myPizza)
     myOrder.getTotal()
     console.log(myOrder);
+    $("#pizzas").empty()
+    $("#total").empty()
+    myOrder.pizzas.forEach((pizza, i) => {
+      $("#pizzas").append(`<div>Pizza: ${i + 1} <br> Toppings: ${pizza.toppings} <br> Price: ${pizza.price}`)
+    })
+    $("#total").append(`<h3> Your Total: ${myOrder.orderTotal}</h3>`)
   })
 })
