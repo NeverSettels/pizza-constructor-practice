@@ -1,3 +1,4 @@
+//Order constructor and prototypes
 function Order() {
   this.pizzas = [];
   this.orderTotal = 0;
@@ -11,6 +12,7 @@ Order.prototype.getTotal = function () {
 Order.prototype.addPizza = function (pizza) {
   this.pizzas.push(pizza)
 }
+//Pizza constructor and prototypes
 function Pizza() {
   this.sauce = "tomato"
   this.crust = "regular"
@@ -36,6 +38,7 @@ Pizza.prototype.calcPrice = function () {
   this.price += toppingCost
 }
 
+//UI logic for front-end
 $(document).ready(function () {
   var myOrder = new Order()
   $("form#order").submit(function (event) {
