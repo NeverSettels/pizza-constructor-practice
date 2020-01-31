@@ -1,0 +1,25 @@
+body{
+  width:100vw;
+  padding: 5vh;
+}
+#order{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputs{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.radio-container{
+  width: 30%
+}
+#pizzas{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
