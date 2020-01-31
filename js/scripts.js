@@ -7,19 +7,19 @@ function Pizza() {
 Pizza.prototype.addTopping = function (topping) {
   this.toppings.push(topping)
 }
-Pizza.prototype.changeSauce(sauce) = function (sauce) {
+Pizza.prototype.changeSauce = function (sauce) {
   this.sauce = sauce
 }
-Pizza.prototype.changeCrust(sauce) = function (crust) {
+Pizza.prototype.changeCrust = function (crust) {
   this.crust = crust
 }
 
 
-$(document).ready(() => {
+$(document).ready(function () {
   var myPizza = new Pizza()
-  $("form#order").submit(event => {
-    event.preventDeafult()
-    $("input:checkbox[name=topping]:checked").each(() => {
+  $("form#order").submit(function (event) {
+    event.preventDefault();
+    $("input:checkbox[name=topping]:checked").each(function () {
       myPizza.addTopping($(this).val())
     })
     console.log(myPizza);
