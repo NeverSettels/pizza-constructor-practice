@@ -55,7 +55,7 @@ $(document).ready(function () {
     $("#pizzas").empty()
     $("#total").empty()
     myOrder.pizzas.forEach((pizza, i) => {
-      $("#pizzas").append(`<div class="order-item"> <strong>Pizza:</strong> ${i + 1} <br> <strong>Crust:</strong> ${pizza.crust} <br> <strong> Sauce:</strong> ${pizza.sauce}<br> <strong>Toppings: </strong>${pizza.toppings} <br> Price: $${pizza.price}`)
+      $("#pizzas").append(`<div class="order-item"> <strong>Pizza:</strong> ${i + 1} <br> <strong>Crust:</strong> ${pizza.crust} <br> <strong> Sauce:</strong> ${pizza.sauce}<br> <strong>Toppings: </strong>${pizza.toppings} <br> <strong>Price:</strong> $${pizza.price}`)
     })
     $("#total").append(`<h3> <strong> Your Total: </strong> $${myOrder.orderTotal}</h3>`)
   })

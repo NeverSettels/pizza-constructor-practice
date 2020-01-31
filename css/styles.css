@@ -31,7 +31,13 @@ body{
 }
 .jumbotron{
   background-color: #565554;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-strong{
-  color: #345995;
+h4, strong{
+  color: #BB0A21;
+}
+img{
+  width: 20vh;
 }
