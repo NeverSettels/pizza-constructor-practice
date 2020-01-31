@@ -30,7 +30,8 @@ body{
   margin: 2vh 0;
 }
 .jumbotron{
-  background-color: #BB0A21;
+  background-image: url('https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&w=1000&q=80');
+  background-size: cover;
   display: flex;
   justify-content: space-around;
   align-items: center;
