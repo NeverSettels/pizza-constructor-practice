@@ -13,3 +13,16 @@ Pizza.prototype.changeSauce(sauce) = function (sauce) {
 Pizza.prototype.changeCrust(sauce) = function (crust) {
   this.crust = crust
 }
+
+
+$(document).ready(() => {
+  var myPizza = new Pizza()
+  $("form#order").submit(event => {
+    event.preventDeafult()
+    $("input:checkbox[name=topping]:checked").each(() => {
+      myPizza.addTopping($(this).val())
+    })
+    console.log(myPizza);
+
+  })
+})
