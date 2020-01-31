@@ -2,7 +2,7 @@ function Pizza() {
   this.sauce = "tomato"
   this.crust = "regular"
   this.toppings = [];
-  this.price = 0;
+  this.price = 7;
 }
 Pizza.prototype.addTopping = function (topping) {
   this.toppings.push(topping)
@@ -13,7 +13,15 @@ Pizza.prototype.changeSauce = function (sauce) {
 Pizza.prototype.changeCrust = function (crust) {
   this.crust = crust
 }
-
+Pizza.prototype.calcPrice = function () {
+  if (this.sauce !== "Marinera") {
+    this.price += 2;
+  } else if (this.crust !== "Regular") {
+    this.price += 2;
+  }
+  var toppingCost = this.toppings.length;
+  this.price += toppingCost
+}
 
 $(document).ready(function () {
   var myPizza = new Pizza()
@@ -26,6 +34,7 @@ $(document).ready(function () {
     $("input:checkbox[name=topping]:checked").each(function () {
       myPizza.addTopping($(this).val())
     })
+    myPizza.calcPrice()
     console.log(myPizza);
   })
 })
