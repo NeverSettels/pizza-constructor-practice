@@ -20,8 +20,9 @@ $(document).ready(function () {
   $("form#order").submit(function (event) {
     event.preventDefault();
     var sauce = $("input[name='sauceRadios']:checked").val();
-    console.log(sauce)
+    var crust = $("input[name='crustRadios']:checked").val();
     myPizza.changeSauce(sauce)
+    myPizza.changeCrust(crust)
     $("input:checkbox[name=topping]:checked").each(function () {
       myPizza.addTopping($(this).val())
     })
