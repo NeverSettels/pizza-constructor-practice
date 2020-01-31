@@ -30,13 +30,17 @@ body{
   margin: 2vh 0;
 }
 .jumbotron{
-  background-color: #565554;
+  background-color: #BB0A21;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 h4, strong{
   color: #BB0A21;
+}
+h1{
+  font-size: 50px;
+  -webkit-text-stroke: 1px black ;
 }
 img{
   width: 20vh;
