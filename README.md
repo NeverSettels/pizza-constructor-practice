@@ -1,6 +1,6 @@
 # Papa Settels Pizzeria
 
-#### _Object-Oriented Programming_ - 1/31/2020_
+#### _Object-Oriented Programming_ - _1/31/2020_
 
 #### _Eric Settels_
 
@@ -17,13 +17,15 @@ _This program is designed to let people choose toppings for a pizza and show the
 | Collect toppings from inputs | user selcts "PEPPERONI" | console.log('pepperoni') |
 | Pushes Selected Topping to pizza object | user selects "Anchovies" | on console myPizza = { toppings: ['anchovies'], price: 7}  |
 | Counts how many toppings are selected  | user selects "Anchovies" | returns 1 |
-| Adds $ per toppings | user selects 2 toppings | pizza price goes up by 3 dollars
+| Adds $ per toppings | user selects 2 toppings | pizza price goes up by 3 dollars |
+| Add constructor for Order | NA | NA |
+| Collect price from all oders and diplay price | user selects 3 different pizzas | Order total: $30 is deplayed | 
 
 ## **Setup/Installation**
 
 1. Step one: Open up your terminal.
 2. Step two: Navigate to the desired directory in which you want to clone this repository.
-3. Step three: Use `` to clone this repository.
+3. Step three: Clone this repository.
 4. Step four: Open the repository.
 5. Step five: Drag the html file into your broswer. 
 6. Step six: Start picking your toppings!
@@ -58,4 +60,4 @@ If you have any questions, comments, or concerns, feel free to contact the conte
 
 Copyright (c) 2020 **Papa Settels Pizzeria**
 
-#### SMIT
+### **_MIT_**
