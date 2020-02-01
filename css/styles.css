@@ -9,6 +9,14 @@ h1,h2,h3,h4,h5,h6{
   font-family: 'Italiana', serif;
   font-weight: bolder;
 }
+h4, strong{
+  color: #BB0A21;
+  font-family: 'Italiana', serif;
+}
+h1{
+  font-size: 50px;
+  text-shadow: 5px 5px black;
+}
 #order{
   width: 100%;
   display: flex;
@@ -41,14 +49,6 @@ h1,h2,h3,h4,h5,h6{
   display: flex;
   justify-content: flex-start;
   align-items: center;
-}
-h4, strong{
-  color: #BB0A21;
-  font-family: 'Italiana', serif;
-}
-h1{
-  font-size: 50px;
-  text-shadow: 5px 5px black;
 }
 img{
   width: 20vh;

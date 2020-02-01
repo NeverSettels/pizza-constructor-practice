@@ -30,8 +30,6 @@ _This program is designed to let people choose toppings for a pizza and show the
 5. Step five: Drag the html file into your broswer. 
 6. Step six: Start picking your toppings!
 
-
-
 ## **Known Bugs**
 
 There are no known bugs at this time.
