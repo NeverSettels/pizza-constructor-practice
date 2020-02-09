@@ -12,13 +12,11 @@ _This program is designed to let people choose toppings for a pizza and show the
 
 | Behavior | Input | Output |
 |----------|:-----:|--------|
-| Make Pizza Constructor | NA | NA |
-| Add Pizza Maethos to push toppings | NA | NA |
-| Collect toppings from inputs | user selcts "PEPPERONI" | console.log('pepperoni') |
-| Pushes Selected Topping to pizza object | user selects "Anchovies" | on console myPizza = { toppings: ['anchovies'], price: 7}  |
-| Counts how many toppings are selected  | user selects "Anchovies" | returns 1 |
+| Collect toppings from inputs | user selcts "PEPPERONI" | hits submit recives confirmatio of topping |
+| Pushes Selected Topping to pizza object | user selects "Anchovies" |User sees toppings: anchovies, price: 7}  |
+| Counts how many toppings are selected  | user selects "Anchovies" | adds one to total for each topping price: 8 |
 | Adds $ per toppings | user selects 2 toppings | pizza price goes up by 3 dollars |
-| Add constructor for Order | NA | NA |
+| User can make multiple orders | user makes two pizzas | Sees the pizzas orderd so far displayed on bottom of the screen |
 | Collect price from all oders and diplay price | user selects 3 different pizzas | Order total: $30 is deplayed | 
 
 ## **Setup/Installation**
