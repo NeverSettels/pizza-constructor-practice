@@ -56,6 +56,7 @@ If you have any questions, comments, or concerns, feel free to contact the conte
 
 ## **License**
 
+### **_MIT_**
+
 Copyright (c) 2020 **Papa Settels Pizzeria**
 
-### **_MIT_**
